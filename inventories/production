@@ -1,0 +1,9 @@
+[web]
+fiworker2    ansible_ssh_host=ec2-52-41-237-52.us-west-2.compute.amazonaws.com        ansible_ssh_private_key_file=/Users/sjohnson/.ssh/fi_nav_sitecrawl.pem
+fiworker2a   ansible_ssh_host=ec2-52-42-166-105.us-west-2.compute.amazonaws.com        ansible_ssh_private_key_file=/Users/sjohnson/.ssh/fi_nav_sitecrawl.pem
+ficrawler1   ansible_ssh_host=ec2-52-89-105-4.us-west-2.compute.amazonaws.com        ansible_ssh_private_key_file=/Users/sjohnson/.ssh/fi_nav_sitecrawl.pem
+ficrawler2   ansible_ssh_host=ec2-54-68-16-169.us-west-2.compute.amazonaws.com        ansible_ssh_private_key_file=/Users/sjohnson/.ssh/fi_nav_sitecrawl.pem
+[db]
+fimariadb    ansible_ssh_host=ec2-52-39-100-178.us-west-2.compute.amazonaws.com        ansible_ssh_private_key_file=/Users/sjohnson/.ssh/fi_nav_sitecrawl.pem
+[log]
+figraylog    ansible_ssh_host=52.40.224.171        ansible_ssh_private_key_file=/Users/sjohnson/.ssh/fi_nav_sitecrawl.pem
